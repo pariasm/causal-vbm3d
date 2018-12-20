@@ -53,4 +53,4 @@ $(BIN): $(OBJ) $(LIBDEPS)
 	$(CXX) -o $@ $(OBJ) $(LDFLAGS)
 
 clean:
-	rm *.o
+	rm *.o $(BIN)
